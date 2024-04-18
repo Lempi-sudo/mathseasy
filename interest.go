@@ -17,3 +17,7 @@ func CalculateCompoundInterest(principal, rate, time float64) float64 {
 func Message(interest, time float64) string {
 	return fmt.Sprintf("Сложный процент за %.1f лет: %.2f", time, interest)
 }
+
+func NewPlus(interest, time float64) string {
+	return fmt.Sprintf("Сложный процент за %.1f лет: %.2f", time, interest)
+}
