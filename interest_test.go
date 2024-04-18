@@ -1,4 +1,4 @@
-package complex_interest
+package interestCalc
 
 import (
 	"testing"
